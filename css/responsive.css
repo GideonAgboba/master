@@ -1,0 +1,245 @@
+@media (min-width: 48em) {
+  .dashboard-body{
+    font-size: 12px;
+  }.password-body{
+    font-size: 12px;tf
+  }.login-body{
+    font-size: 12px;
+  }.register-body{
+    font-size: 12px;
+  }
+}	
+/*  LOGIN  */
+@media screen and (max-width: 500px){
+	
+.login-left-section{
+	text-align: center;
+	height: 40vh;
+	background-position: 0px 0px;
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(../img/login_skype.jpg);
+   background-size: cover;
+}
+.login-left-section-content{
+  position: absolute;
+  top:60%; left:50%;
+  transform: translate(-50%,-50%);
+  width: 300px;
+  height: 200px;
+}
+.login-left-section-content h2{
+  margin-top: 60px;
+  font-size: 45px;
+  font-weight: lighter;
+  font-stretch: extra-expanded;
+  color: white;
+  margin-bottom: 0px;
+}
+.login-left-section-content p{
+  display: none !important;
+}
+.login-left-section-content button{
+  display: none !important;
+}
+.login-top p{
+	text-align: center;
+	color: grey;
+	padding-bottom: 25px;
+  font-size: 22px;
+  margin-left: 0px;
+}
+.login-right-section{
+	padding-top: 20px;
+	height: 100vh;
+	background-color: white;
+}
+
+}
+/* ############## */
+
+/* Regiister */
+@media screen and (max-width: 500px){
+.register-left-section{
+	text-align: center;
+	height: 40vh;
+	background-position: 0px 0px;
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(../img/login_skype.jpg);
+   background-size: cover;
+}
+.register-left-section-content{
+  position: absolute;
+  top:60%; left:50%;
+  transform: translate(-50%,-50%);
+  width: 300px;
+  height: 200px;
+}
+.register-left-section-content h2{
+  margin-top: 60px;
+  font-size: 45px;
+  font-weight: lighter;
+  font-stretch: extra-expanded;
+  color: white;
+  margin-bottom: 0px;
+}
+.register-left-section-content p{
+  display: none !important;
+}
+.register-left-section-content button{
+  display: none !important;
+}
+.register-top p{
+	text-align: center;
+	color: grey;
+	padding-bottom: 25px;
+  font-size: 22px;
+  margin-left: 0px;
+}
+.register-right-section{
+	padding-top: 20px;
+	height: 100vh;
+	background-color: white;
+}
+}
+
+/* ########################## */
+/* ########################## */
+/* ########################## */
+
+/* PROFILE */
+
+@media screen and (max-width: 500px){
+	
+	 .profile-main-section{
+	  padding-left: 20px;
+	  padding-right: 20px;
+	  overflow: auto;
+	  background-color: transparent;
+	 }
+ .profile-jumbotron-header{
+		height: 300px;
+	}
+	.profile-box{
+		display: none !important;
+	}
+
+.profile-jumbotron-header img{
+	margin-top: 130px;
+}
+.profile-section-nav {
+  padding-left: 0em;
+  /*margin-left: 5px;*/
+}
+.container .profile-header-btn-msg {
+  color: #fff;
+  background: #1EAE0D;
+  margin-top: 11em; 
+  border: none;
+  font-size: 15px;
+  width: 110px;
+  border-radius: 0px;
+  padding-right: 40px;
+  padding-left: 8px;  
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.profile-header-btn-msg:hover {
+  background: #fff;
+  color: #1EAE0D;
+  
+}
+
+.container .profile-header-btn-hire {
+  color: #fff;
+  background: #1EAE0D;
+  margin-top: 11em;
+  font-size: 15px; 
+  border: none;
+  width: 70px;
+  border-radius: 0px;
+  padding-right: 40px;
+  padding-left: 25px;  
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.profile-header-btn-hire:hover {
+  background: #fff;
+  color: #1EAE0D;
+  
+}
+.col-sm-4{
+	display: none !important;
+}
+.profile-search-box input{
+	margin-top: 20px;
+}
+/* ###### */
+}
+
+/* INDEX  */
+@media screen and (max-width: 500px){
+  .index-image-grid{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .index-img-rol img{
+    height: 150px;
+    width: 150px;
+  }
+  .navbar-index{
+    display: none !important;
+  }
+  .index-showcase-btn-mobile{
+    width: 100%; 
+    font-size: 5px;
+  }
+  .navbar-index-mobile{
+    width: 100%;
+    display: -webkit-inline-box !important;
+    background-color: black;
+  }
+  .index-navbar-brand-mobile img{
+    height: 30px; 
+    width: 110px;
+  }
+  .index-hire{
+    padding-left:3%;
+    padding-right: 3%;
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+  }
+  .carousel-item {
+    height: 50vh;
+}
+  /* .index-input-search{
+
+    padding-left:5%;
+    padding-right: 5%;
+    margin-top: 100px;
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+  } */
+  .index-input-search{
+    padding-left:5%;
+    padding-right: 5%;
+    top: 65%;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    color: white;
+  }
+  
+  .index-btn-input-search{
+    height: 50px; 
+    padding-left: 20px;
+    padding-right: 20px; 
+    background-attachment: fixed;
+  }
+}
+/* ##### */

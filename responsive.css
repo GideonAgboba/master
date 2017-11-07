@@ -1,0 +1,50 @@
+
+@media (min-width: 48em) {
+  html {
+    font-size: 12px;
+  }
+}	
+/*  LOGIN  */
+@media screen and (max-width: 500px){
+	
+.login-left-section{
+	text-align: center;
+	height: 40vh;
+	background-position: 0px 0px;
+   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(../img/login_skype.jpg);
+}
+.login-content{
+	padding-top: 80px;
+	padding-left: 30px;
+	width: 70%;
+	height: 50%;
+	top: 25%;
+	margin: 0 auto;
+	position: relative;
+}
+.login-content h2{
+	font-weight: lighter;
+	font-size: 35px;
+	color: white;
+	margin: 0 auto;
+}
+.login-content p{
+	display: none !important;
+}
+.login-content button{
+	display: none !important;
+}
+.login-top p{
+	text-align: center;
+	color: grey;
+	padding-bottom: 25px;
+	font-size: 22px;
+}
+.login-right-section{
+	padding-top: 20px;
+	height: 100vh;
+	background-color: white;
+}
+}
+/* ############## */
+
